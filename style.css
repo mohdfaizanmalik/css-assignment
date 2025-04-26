@@ -32,16 +32,33 @@ body{
           color: white;
           border: 1px solid;
           padding: 5px;
+          border-radius: 10px;
 }
-.slider{
+.menu ul li a:hover{
+          color: white;
+          background-color: orange;
+} 
+.home a{
+          background-color: orange; 
+}
+.slider img{
           height: 500px;
           width: 100%;
-          background-color: brown;
 }
 .text h2{
-         height: 500px;
-         width: 50%;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+    color: orangered;
+    font-size: 50px;
 
+}
+.text p{
+          margin-left: 35%;
+          margin-top: 20px;
+          color: chocolate;
+          font-size: 20px;
 }
 .box{
           height: 100px;
