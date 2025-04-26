@@ -39,7 +39,12 @@ body{
           background-color: brown;
 }
 .text h2{
-          margin-left: 10px;
-          
-          text-transform: uppercase;
+         height: 500px;
+         width: 50%;
+
+}
+.box{
+          height: 100px;
+          width: 100px;
+          background-color: rgb(35, 100, 78);
 }
