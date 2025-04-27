@@ -13,11 +13,15 @@ body{
           width: 100%;
 }
 .logo h2{
+         margin-left: 20px;
          color: white;
          font-size: 35px;
          line-height: 60px; 
-         padding: 0 100px;
          font-weight: bold;
+         width: 10%;
+}
+.logo h2:hover{
+         color: orange;
 }
 .menu ul{
           float: right;
@@ -50,14 +54,14 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: -300px;
-    color: orangered;
+    color: orange;
     font-size: 50px;
 
 }
 .text p{
           margin-left: 35%;
           margin-top: 20px;
-          color: chocolate;
+          color: orange;
           font-size: 20px;
 }
 .box{
@@ -65,3 +69,35 @@ body{
           width: 100px;
           background-color: rgb(35, 100, 78);
 }
+.contant{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 30px;
+     font-family: sans-serif;
+}
+.card-section{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(7, 103, 97);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+.card1{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(183, 119, 0);
+}
+.card2{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(183, 119, 0);
+}
+.card3{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(183, 119, 0);
+}
+
+
