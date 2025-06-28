@@ -66,6 +66,7 @@ body{
           text-align: center;
           margin-top: 20px;
           color: rgb(10, 86, 87);
+          text-decoration: solid;
 }
 .contant{
           text-align: center;
@@ -91,7 +92,7 @@ body{
           overflow: hidden;
           border-radius: 20px;
           margin-top: 50px;
-          box-shadow: 0 0 10px gray;
+          box-shadow: 0 0 20px rgb(0, 0, 0);
   }
   .card h2{
     z-index: 1;
