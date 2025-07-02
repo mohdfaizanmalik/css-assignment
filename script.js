@@ -57,10 +57,9 @@
 //           const a = 39;
 // }
 
-// 8. Declare a variable without assigning a value.
-
-// let x "faizan malik";
-// console.log(x); // Answer = faizan malik
+// . Declare a variable without assigning a value.
+// let x;
+// console.log(x); // Answer = undefined
 
 // 9. Create variables for a first name, last name, and age. Apply camelCase naming convention
 
@@ -301,5 +300,162 @@
 // let b = 2;
 // let c = a % b;
 // console.log(c);   // Answer = 1
+
+
+// 6. Basic Assignment:
+//  Create a variable num and assign it the value 10. Use the += operator to add 5 to
+// num, -= to subtract 3, *= to multiply by 2, and /= to divide by 4. Log the final
+// value of num after each operation.
+// let num = 10;
+// num += 5;
+// console.log(num);  // Answer = 15
+// num -= 3;
+// console.log(num);  // Answer = 12
+// num *= 2;
+// console.log(num);  // Answer = 24
+// num /= 4;
+// console.log(num);  // Answer = 6
+
+
+// 7. Equal to:
+//  Create two variables, a and b, and assign them values. Use the == operator to
+// check if a is equal to b and log the result.
+// let a = 10;
+// let b = 10;
+// let c = (a == b);
+// console.log(c);  // Answer = true
+
+
+// 8. Strict Equality:
+//  Create two variables, a and b, and assign them values of different types. Use the
+// === operator to check if a is strictly equal to b (both value and type) and log the
+// result.
+// let a = "10";
+// let b = "10";
+// let c = (a === b);
+// console.log(c); // Answer = true
+
+
+// 9. Greater than and Less than:
+//  Create two variables, a and b, and assign them values. Use the > and <
+// operators to compare a and b. Log whether a is greater than, less than, or equal
+// to b.
+// let a = 22;
+// let b = 25;
+// let c = a < b;
+// console.log(c);  // Answer = true
+// let c = a > b;
+// console.log(c);    // Answer = false
+
+
+// 10. Logical AND/OR:
+//  Create two boolean variables, x and y. Use the && operator to combine x and y,
+// and the || operator to combine x and y. Log the results of both operations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var number = prompt("enter a number");
+// console.log("number :",number)
+// if(number > 0){
+//           console.log(`${number} is positive`)
+// }
+// else if (number < 0){
+//           console.log("this is a negativ number")
+// }
+// else{
+//           console.log("this give num is ziro");
+// }
+
+// console.log("this is next line");
+
+
+// var number = prompt("enter a number");
+// console.log("number=",number);
+// if(number >= 0){
+//           // console.log(`${number} is positive`);
+//          if(number==0){
+//           console.log("the number is ziro");
+
+//                  }
+//                else{
+//           console.log("the number is positive");
+// } 
+// }
+// else{
+//           console.log("the number is nagative")
+// }
+
+
+// var number = prompt("Enter the even number");
+// if(number % 2 == 0){
+//           console.log("this is a even number");
+// }
+// else{
+//           console.log("this is a odd number");
+// }
+
+                    //      switch 
+var a = Number(prompt("Enter number(1,2,3)"));
+switch(a){
+          case 1:
+                    console.log("one");
+                    break;
+          case 2:
+                    console.log("two");
+                    break;
+          case 3:
+                    console.log("three");
+                    break;
+          default:
+                    console.log("not a valid number");
+                    break;
+                                                                                 
+}                    
 
 
