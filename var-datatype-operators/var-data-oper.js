@@ -24,7 +24,7 @@
 // 3. Follow JavaScript naming conventions to create variables for a username, email address,and password.
 // let userName = "faizan_malik";
 // let userEmail = "faizanmalik123@gmail.com";
-// let userPassword = "Faizan@123";
+// let userPassword = faizan@123;
   
 
 // 4. a variable inside a block ({})  and try accessing it outside  
